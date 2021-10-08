@@ -1,0 +1,206 @@
+
+/* ============================= GENERAL STYLES ================================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --hover: rgba(29, 27, 27, 0.356);
+    --body-color: rgb(0, 0, 0);
+    --button-color: rgb(158, 68, 138);
+    --light-background-color: linear-gradient(180deg, rgba(17, 11, 11, 0.973) 0%, rgba(7, 2, 2, 0.568) 40%);
+    --white: white;
+    --yellow: #e2af22;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    height: 100%;
+}
+
+/* ============================= NAV BAR ================================*/
+
+.navbar{
+    background: linear-gradient(180deg, rgba(17, 11, 11, 0.973) 100%, rgba(7, 1, 70, 0.568) 100%);
+    
+}
+
+.nav-link,
+.navbar-brand{
+    color: var(--yellow) !important;
+}
+
+.nav-link:hover{
+    color: var(--white) !important;
+}
+
+
+/* ============================= HERO SECTION ================================*/
+.hero{
+    background: var(--light-background-color), url(./photos/background.webp);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ============================= Social Links ====================================*/
+
+.social-links{
+    position: relative;
+    left: 43em;
+    top: 16em;
+
+}
+
+.social-links .fab{
+    margin: 12px 0;
+    padding: 5px;
+    color: var(--yellow);
+    transition: transform 0.3s ease-in;
+    font-size: 15px;
+    border: 1px solid var(--yellow);
+    border-radius: 70px;
+}
+
+.social-links .fab:hover{
+    transform: translateY(-5px);
+}
+
+/* ============================= ABOUT SECTION ====================================*/
+
+.about .padding{
+    padding-left: 14em;
+
+}
+
+
+
+/* ============================= SERVICES SECTION ===============================*/
+.services{
+    background: black;
+    height: 100%;
+    padding: 7em 0;
+}
+
+.bg-secondary{
+    background: var(--light-background-color);
+}
+
+
+
+
+/* ============================= SKILLS SECTION ====================================*/
+
+.languages{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+
+.languages::before{
+    content: '';
+    position: absolute;
+    border-top: 9px solid #838386;
+    border-radius: 7px;
+    width: 100%;
+    bottom: .5em;
+}
+
+.line-html{
+    position: relative;
+    width: 90%;
+    bottom: 17px;
+    background: var(--yellow);
+    height: 9px;
+    border-radius: 7px;
+   
+}
+.line-html{
+    position: relative;
+    width: 90%;
+    bottom: 17px;
+    background: var(--yellow);
+    height: 9px;
+    border-radius: 7px;
+    
+}
+
+.line-css{
+    position: relative;
+    width: 90%;
+    bottom: 17px;
+    background: var(--yellow);
+    height: 9px;
+    border-radius: 7px;
+    
+}
+
+.line-bootstrap{
+    position: relative;
+    width: 70%;
+    bottom: 17px;
+    background: var(--yellow);
+    height: 9px;
+    border-radius: 7px;
+    
+}
+
+.line-javascript{
+    position: relative;
+    width: 50%;
+    bottom: 17px;
+    background: var(--yellow);
+    height: 9px;
+    border-radius: 7px;
+}
+
+.line-php{
+    position: relative;
+    width: 30%;
+    bottom: 17px;
+    background: var(--yellow);
+    height: 9px;
+    border-radius: 7px;
+}
+
+.line-mysql{
+    position: relative;
+    width: 20%;
+    bottom: 17px;
+    background: var(--yellow);
+    height: 9px;
+    border-radius: 7px;
+}
+
+
+
+
+/* ============================= PORTFOLIO SECTIONO ====================================*/
+.portfolio{
+    padding: 2rem 15rem;
+    height: 100%;
+    background: black;
+}
+
+
+
+/* ============================= CONTACT SECTION ====================================*/
+
+
+
+
+
+
+/* ============================= FOOTER SECTION ====================================*/
+
